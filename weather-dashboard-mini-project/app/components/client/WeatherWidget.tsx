@@ -1,0 +1,1 @@
+// Client component with interactive features

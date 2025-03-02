@@ -1,0 +1,1 @@
+// Client component for searching cities
