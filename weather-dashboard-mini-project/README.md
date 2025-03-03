@@ -21,22 +21,23 @@ Define TypeScript interfaces for the API responses
 
 3. Homepage Implementation (SSR)
 Build a server-rendered homepage showing weather for a default location
-Implement a server component to display current weather
-Add a forecast section as another server component
+
+This two server component should be fetch pararelly 
+ - Implement a server component to display current weather
+ - Add a forecast section as another server component
 
 4. City-Specific Weather Pages (SSG)
 Create a dynamic route with [cityId]
 Implement getStaticPaths to pre-render pages for popular cities
 Use getStaticProps to fetch weather data at build time
 Add a detailed weather view for the specific city
-5. Client-Side Features
+5. Client-Side Featues
 Build a search component to find cities
 Implement client-side navigation between city pages
 Add interactive elements like temperature unit toggle (°C/°F)
 6. Incremental Static Regeneration
 Update the city pages to use ISR with a reasonable revalidation time
 Add a "last updated" indicator on city pages
-
 
 
 Key Implementation Points
